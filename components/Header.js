@@ -3,9 +3,15 @@ import styled from "styled-components";
 
 const Header = () => {
   return (
-    <Button style={{ backgroundColor: "#3773f5", color: "#000" }}>
-      Buy / Sell
-    </Button>
+    <Wrapper>
+      <Title>Assets</Title>
+      <ButtonContainer>
+        <Button style={{ backgroundColor: "#3773f5", color: "#000" }}>
+          Buy / Sell
+        </Button>
+        <Button>Send / Receive</Button>
+      </ButtonContainer>
+    </Wrapper>
   );
 };
 
